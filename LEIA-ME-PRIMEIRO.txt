@@ -1,0 +1,15 @@
+VOID LEARNING — VERSÃO COM TELA DE LOGIN
+
+1. Extraia todo o conteúdo deste ZIP para uma pasta.
+2. Abra a pasta extraída (a que contém package.json).
+3. Na barra de endereço do Explorador de Arquivos, digite cmd e pressione Enter.
+4. Execute:
+   npm install
+   npm run dev
+5. Abra no navegador o endereço mostrado pelo Vite (geralmente http://localhost:5173).
+
+A tela inicial agora é /login. Preencha usuário/e-mail e senha com qualquer valor para acessar o painel demonstrativo.
+A autenticação é apenas ilustrativa no front-end; para login real é necessário integrar um backend/serviço de autenticação.
+
+O projeto mantém o banner SVG animado e o botão “Ver Disciplinas” com efeito de hover e navegação para a área de disciplinas.
+Para gerar a versão de produção, execute: npm run build
